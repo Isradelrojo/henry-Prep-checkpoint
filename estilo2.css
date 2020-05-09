@@ -1,0 +1,11 @@
+#divNegro{
+    width: 300px;
+    background-color: black;
+    border-width: 1px 20px 30px 1px;
+    border-color: black;
+}
+div{
+    border-style: solid;
+    border-color: coral;
+    border-width: 2px;
+}

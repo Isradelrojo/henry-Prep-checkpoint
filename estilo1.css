@@ -1,0 +1,25 @@
+div{
+    margin-left: auto;
+    width: 500px center;
+    background-color: yellow;
+}
+ul{
+    color: red;
+    font-size: 25px;
+}
+img{
+    justify-content: center;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+    font-size: 22px;
+}
+a:active{
+    color: green;
+}
