@@ -1,11 +1,94 @@
 #divNegro{
-    width: 300px;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: black;
-    border-width: 1px 20px 30px 1px;
-    border-color: black;
+    border-top: 1px black solid;
+    border-bottom: 30px black solid;
+    border-left: 1px black solid;
+    border-right: 20px black solid;
+    
 }
-div{
-    border-style: solid;
-    border-color: coral;
-    border-width: 2px;
+#uno{
+    height:50px;
+    margin-top:10px;
+    margin-bottom: 5px;
+    display: flex;
+    border-radius: 3px;
+    border:5px solid salmon;
+
+    
+    
+}
+#dos{
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 5px solid rgb(214, 214, 39);
+    border-radius: 3px;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#tres{
+    height: 50px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-color: red solid;
+    border-radius: 3px;
+    border:5px solid rgb(240, 220, 41);
+    justify-content: space-between;
+    
+}
+#uno-contact{
+    background-color: rgb(190, 122, 110);
+}
+#uno-careers{
+    background-color: rgb(41, 211, 211); 
+}
+#uno-about{
+    justify-self: flex-end;
+    background-color: rgb(56, 197, 122);
+}
+
+
+#dos-careers{
+    height: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(41, 211, 211);
+}
+
+
+#dos-contact{
+    height: 30px;
+    color:white;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(190, 122, 110);
+}
+#dos-about{
+    height: 30px;
+    color:white;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(56, 197, 122);
+
+}
+#tres-contact{
+    background-color: rgb(190, 122, 110);
+}
+#tres-careers{
+    background-color: rgb(41, 211, 211); 
+}
+#tres-about{
+    background-color: rgb(56, 197, 122); 
 }
