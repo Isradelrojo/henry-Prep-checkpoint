@@ -168,7 +168,7 @@ function filtrar(funcion) {
   // filtrar los elementos de ese arreglo en base al resultado de esa funcion
   // comparadora, devolver un nuevo arreglo con los elementos filtrados.
   // NO USAR LA FUNCION FILTER DE LOS ARREGLOS.
-  // ej:
+    // ej:
   // var productos = [{
   //   price: 100,
   //   name: 'tv'
@@ -182,7 +182,16 @@ function filtrar(funcion) {
   // productos.filtrar(function(p) {
   //   return p.price >= 50;
   // }) => [{price: 100, name:'tv'}]
-
+  Array.prototype.filtrar = function (funcion) {
+    var newArray = [];
+    for (var i = 0; i < this.length; i++){
+      if (funcion(this[i])){
+        newArray.push(this[i]);
+      }
+    }
+    return newArray;
+  }
+  
 };
 
 // No modifiques nada debajo de esta linea
